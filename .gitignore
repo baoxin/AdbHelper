@@ -1,0 +1,12 @@
+# 构建中间产物
+classes/
+dexout/
+build-base.apk
+build-unsigned.apk
+build-aligned.apk
+
+# 签名密钥（勿提交公钥库；重建命令见下）
+debug.keystore
+
+# macOS
+.DS_Store
